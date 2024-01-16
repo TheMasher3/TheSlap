@@ -1,0 +1,53 @@
+<script src="./ruffle/ruffle-nightly-2024_01_16-web-selfhosted/ruffle.js"></script>
+<link rel="stylesheet" href="./theslap.css">
+<div id="header">
+    <div id="nav_adornment"></div>
+    <div id="logo_bg"></div>
+    <script type="text/javascript">
+      //<![CDATA[
+        var user_menu_template = "    <ul>\n      <% try { %>\n        <li class=\"first\">Hello: <span class=\"user_name\"><%= user.username %><\/span><\/li>\n        <li><a href=\"/bump?to=%2Fmy%2Fprofile\">My profile<\/a><\/li>\n\n        <% if(user.admin) { %>\n          <li><a href=\"/bump?to=%2Fadmin%2Fdashboard\">Admin dashboard<\/a><\/li>\n          <li><a href=\"/\">View site<\/a><\/li>\n        <% } %>\n        <li class=\"last\"><a href=\"/users/logout?return_to_after_logged_out=%2F\">Logout<\/a><\/li>\n      <% } catch(err) { %>\n        <li><a href=\"/register\">Register<\/a><\/li>\n        <li class=\"last\"><a href=\"/bump?to=%2Fusers%2Fpickles%3Freturn_to_if_logged_out%3D%252F\" id=\"login_link\">Login<\/a><\/li>\n      <% } %>\n    <\/ul>\n";
+      //]]>
+    </script>
+    
+    <a href="https://web.archive.org/web/20170504063236/http://www.theslap.com/users/pickles" id="admin_login_link"></a>
+    <div id="deprecated_user_menu">
+    <noscript>
+    <h3 class="no_javascript_warning">
+    Javascript is required to use TheSlap. Please enable Javascript and reload this page.
+    </h3>
+    </noscript>
+    </div>
+    
+    <div id="logo">
+    <a href="/web/20170504063236/http://www.theslap.com/">
+    <object data="./ruffle/slap_logo.swf" height="103" id="slap_animation" type="application/x-shockwave-flash" width="327">
+    <param name="wmode" value="transparent"/>
+    <param name="movie" value="./ruffle/slap_logo.swf"/>
+    <img alt="The Slap" src="./ruffle/home_logo.png"/>
+    </object>
+
+    </a>
+    </div>
+    <div id="nav">
+    <ul>
+    <li class="home first"><a href="/web/20170504063236/http://www.theslap.com/">Home</a></li>
+    <li class="characters"><a href="/web/20170504063236/http://www.theslap.com/bump?to=%2Fprofiles">Profiles</a></li>
+    <li class="videos"><a href="/web/20170504063236/http://www.theslap.com/bump?to=%2Fclips%3Fnewest%3Dtrue">Clips</a></li>
+    <li class="photos"><a href="/web/20170504063236/http://www.theslap.com/bump?to=%2Fpix%3Fnewest%3Dtrue">Pix</a></li>
+    <li class="songs"><a href="/web/20170504063236/http://www.theslap.com/bump?to=%2Ftunes">Tunes</a></li>
+    <li class="games"><a href="/web/20170504063236/http://www.theslap.com/bump?to=%2Fgames">Games</a></li>
+    <li class="search last"><div id="search">
+    <form action="/web/20170504063236/http://www.theslap.com/bump" method="get">
+    <input id="to" name="to" type="hidden" value="/search">
+    <input class="search_field placeholder" id="q" name="q" placeholder="enter text here" size="15" type="text">
+    <button id="search_button" type="submit">
+    Search
+    </button>
+    </form>
+    </div>
+    </li>
+    </ul>
+    <div id="nav_bar_right_cap"></div>
+    </div>
+    
+    </div>
